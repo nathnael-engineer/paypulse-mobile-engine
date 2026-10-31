@@ -1,0 +1,46 @@
+# ==============================================================================
+# Production .gitignore for Flutter Mobile Systems
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+*.g.dart
+*.drift.dart
+
+android/.gradle/
+android/captures/
+android/gradleBuild/
+android/local.properties
+android/app/build/
+android/.cxx/
+*.apk
+*.aab
+
+*.jks
+*.keystore
+key.properties
+google-services.json
+
+ios/.generated/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/Podfile.lock
+GoogleService-Info.plist
+
+.env
+.env.*
+!.env.example
+
+.idea/
+.vscode/
+*.iml
+.DS_Store
